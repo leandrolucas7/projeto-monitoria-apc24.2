@@ -1,0 +1,37 @@
+A reitoria, na presença de Alvo Dumbledore, deseja um ótimo primeiro semestre de 2025 na "EMBH" - Escola de Magia e Bruxaria de Hogwarts
+COORDENADORES
+co10001234,Godric Gryffindor,Grifinoria
+co00019876,Salazar Slytherin,Sonserina
+fim
+PROFESSORES
+po09011155,Rubeus Hagrid,Grifinoria
+po12010533,Horacio Slughorn,Sonserina
+po17009995,Gilderoy Lockhart,Corvinal
+po01011754,Severus Snape,Sonserina
+po10007241,Minerva McGonagall,Grifinoria
+fim
+ALUNOS
+al21010135,Harry Potter,Grifinoria
+al14001248,Cedrico Diggory,Lufa-Lufa
+al20002384,Draco Malfoy,Sonserina
+al04012300,Hermione Granger,Grifinoria
+al01002281,Luna Lovegood,Corvinal
+al11013842,Cho Chang,Corvinal
+al24013817,Gregory Goyle,Sonserina
+al24001930,Ron Weasley,Grifinoria
+al08012817,Neville Longbottom,Grifinoria
+al00002011,Ginny Weasley,Grifinoria
+al17012745,Ernie Macmillan,Lufa-Lufa
+al23001823,Vincent Crabbe,Sonserina
+fim
+
+
+
+
+
+A reitoria, na presença de Alvo Dumbledore, deseja um ótimo primeiro semestre de 2025 na comunidade "EMBH" - Escola de Magia e Bruxaria de Hogwarts.
+A direção, representada Alvo Dumbledore, recebe com felicidade os alunos, professores e demais funcionários para o segundo semestre de 2025 na instituição "EMBH" - Escola de Magia e Bruxaria de Hogwarts.
+
+CIFRAS
+Alunos: César (Alternar para frente o numero de vezes equivalente ao último dígito da matrícula)
+Professores: César (Como os alunos) -> Substituição (A<->Z, B<->Y)

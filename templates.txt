@@ -1,0 +1,6 @@
+A reitoria, na presença de Alvo Dumbledore, deseja um ótimo primeiro semestre de 2025 na comunidade EMBH - Escola de Magia e Bruxaria de Hogwarts
+A direção, representada Alvo Dumbledore, recebe com felicidade os alunos, professores e demais funcionários para o segundo semestre de 2025 na instituição EMBH - Escola de Magia e Bruxaria de Hogwarts
+
+CIFRAS
+Alunos: César (Alternar para frente o numero de vezes equivalente ao último dígito da matrícula)
+Professores: Substituição (A<->Z, B<->Y) -> César (Como os alunos)
