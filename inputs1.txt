@@ -25,7 +25,7 @@ fq62567295,Jwsnj Rfhrnqqfs,Lufa-Lufa
 do56334153,Ylqfhqw Fudeeh,Sonserina
 fim
 C m co10001234
-Trato das Criaturas Magicas,seg/qua,4
+Trato das Criaturas Magicas,seg/qua
 P m po09011155
 Trato das Criaturas Magicas
 A m al21010135
