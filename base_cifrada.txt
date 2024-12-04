@@ -1,0 +1,36 @@
+A reitoria, na presença de Alvo Dumbledore, deseja um ótimo primeiro semestre de 2025 na "EMBH" - Escola de Magia e Bruxaria de Hogwarts.
+COORDENADORES
+th45554325,Phsent Pexqqnishe,Grifinoria
+rf33324563,Btitutc Bivampclg,Sonserina
+fim
+PROFESSORES
+fg45433394,Datqac Nuodmr,Grifinoria
+hi54656136,Pifwuoi Elcqpifj,Sonserina
+fg37445554,Omjrqdgw Jgsknudb,Corvinal
+gh54544805,Drarebd Divgr,Sonserina
+jk78881648,Mqluhdy MwSklysynn,Grifinoria
+fim
+ALUNOS
+fq76565685,Mfwwd Utyyjw,Grifinoria
+it92889028,Kmlzqkw Lqoowzg,Lufa-Lufa
+ep64446724,Hvegs Qepjsc,Sonserina
+al04012300,Hermione Granger,Grifinoria
+bm12113391,Mvob Mpwfhppe,Corvinal
+cn33235062,Ejq Ejcpi,Corvinal
+hs91780587,Nylnvyf Nvfsl,Sonserina
+al24001930,Ron Weasley,Grifinoria
+hs75789587,Ulcpssl Svunivaavt,Grifinoria
+bm11113121,Hjooz Xfbtmfz,Grifinoria
+fq62567295,Jwsnj Rfhrnqqfs,Lufa-Lufa
+do56334153,Ylqfhqw Fudeeh,Sonserina
+fim
+C m co10001234
+Trato das Criaturas Magicas,seg/qua
+P m po09011155
+Trato das Criaturas Magicas
+A m al21010135
+Trato das Criaturas Magicas
+C i co10001234
+P i po09011155
+A i al21010135
+FIM

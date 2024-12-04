@@ -78,7 +78,8 @@ def main():
             controlador( acao, matricula, alunos, turmas, info)
         comando = input()
 
-
+    print("-------------------------")
+    print(turmas[0])
 # FUNÇÃO DE CONTROLE ----------------------------------------------------------------- #
 
 def controlador(acao:str, matricula:str, pessoas:list, turmas:list, info:list)->None:
@@ -117,7 +118,7 @@ def imprimir_turmas(pessoa:list, info:list)->None:
             contador += 1
             print()
             print(f"#{contador:02}: {turma[0].upper()}")
-            print(f"---> Professor(a): {turma[3][0]}")
+            print(f"---> Professor(a): {turma[3][1]}")
             print(f"---> Horario: {'/'.join(turma[5])}")
             print(f"---> Matriculados: {len(turma[4])} aluno(s)")
     print()

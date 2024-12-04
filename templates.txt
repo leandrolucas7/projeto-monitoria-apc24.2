@@ -4,3 +4,34 @@ A direção, representada Alvo Dumbledore, recebe com felicidade os alunos, prof
 CIFRAS
 Alunos: César (Alternar para frente o numero de vezes equivalente ao último dígito da matrícula)
 Professores: Substituição (A<->Z, B<->Y) -> César (Como os alunos)
+
+Matérias Básicas (Obrigatórias, Anos 1-5)
+
+    Astronomia - Estudo das estrelas, planetas e movimentos celestes.
+    Feitiços - Estudo de feitiços e encantamentos.
+    Defesa Contra as Artes das Trevas - Estudo de técnicas de defesa mágica e de como lidar com criaturas e feitiços das trevas.
+    Herbologia - Estudo de plantas mágicas e não mágicas e seus usos.
+    História da Magia - Estudo da história do mundo mágico.
+    Poções - Estudo da preparação de poções e seus efeitos mágicos.
+    Transfiguração - Estudo da transformação de objetos ou seres em algo diferente.
+
+Matérias Eletivas (Disponíveis a partir do 3º Ano)
+
+    Aritmancia - Estudo das propriedades mágicas dos números.
+    Trato das Criaturas Mágicas - Estudo das criaturas mágicas e como cuidar delas.
+    Adivinhação - Estudo da arte de prever o futuro.
+    Estudo dos Trouxas - Estudo do mundo não mágico e da cultura dos trouxas.
+    Runas Antigas - Estudo de inscrições rúnicas mágicas.
+
+Matérias Opcionais (Extracurriculares)
+
+    Aparatação - Estudo de teletransporte mágico (oferecida aos alunos maiores de idade).
+    Voo - Aula de voo em vassouras (ministrada apenas no 1º ano).
+
+Outras Atividades/Matérias Menos Comuns
+
+Embora não sejam matérias formais, Hogwarts também oferecia:
+
+    Clube de Duelos - Para praticar e melhorar habilidades de duelo.
+    Teoria da Magia - Uma exploração teórica da magia (mencionada brevemente).
+    Estudo de Alquimia - Ensinada raramente, dependendo da demanda e de especialistas disponíveis.

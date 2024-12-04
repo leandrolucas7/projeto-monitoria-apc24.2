@@ -1,0 +1,47 @@
+---> DADOS
+A reitoria, na presença de Alvo Dumbledore, deseja um ótimo primeiro semestre de 2025 na "EMBH" - Escola de Magia e Bruxaria de Hogwarts
+COORDENADORES
+co10001234,Godric Gryffindor,Grifinoria
+co00019876,Salazar Slytherin,Sonserina
+fim
+PROFESSORES
+po09011155,Rubeus Hagrid,Grifinoria
+po12010533,Horacio Slughorn,Sonserina
+po17009995,Gilderoy Lockhart,Corvinal
+po10007241,Minerva McGonagall,Grifinoria
+fim
+ALUNOS
+al21010135,Harry Potter,Grifinoria
+al14001248,Cedrico Diggory,Lufa-Lufa
+al20002384,Draco Malfoy,Sonserina
+al04012300,Hermione Granger,Grifinoria
+al00002011,Ginny Weasley,Grifinoria
+al23001823,Vincent Crabbe,Sonserina
+fim
+
+---> AÇÕES
+#01 - criar 'Trato das Criaturas Mágicas' em Grifinoria [seg/qua]  => ok
+#02 - Adicionar o hagrid como professor da turma acima  => ok
+#03 - Adicionar hermione na turma acima  => ok 
+#04 - criar 'Pocoes' em Sonserina [seg/qua] => ok
+#05 - criar 'Defesa Contra as Artes das Trevas' em Grifinoria [qui/sex]
+#06 - adicionar horario como prof de pocoes  => ok
+#07 - adicionar gilderoy como prof de defesa...  => erro de departamento
+#08 - adicionar hermione como aluna de defesa... => erro de falta de prof 
+#09 - adicionar harry na turma de criaturas  => ok
+#10 - adicionar malfoy na turma de pocoes => ok
+#11 - adicionar ginny na turma de criaturas  => ok
+#12 - adicionar turma de Transfiguração em grifinoria => [seg]  => ok
+#13 - adicionar turma de Detenção - Floresta Proibida => [sex/sab] => ok
+#14 - adicionar minerva a transfiguracao  => ok
+#15 - adicionar herminione a transiguracao  => ok
+#15 - adicionar minerva a defesa...  => ok
+#16 - adicionar hagrid a detencao  => ok
+#17 - adicionar harry a detencao  => ok
+#18 - adicionar harry a defesa...  => erro de dias
+#19 - adicionar ginny a defesa... => ok
+#20 - imprimir minerva
+#21 - imprimir hermione
+#22 - imprimir godric
+#23 - adicionar Feiticos em sonserina [seg/ter/qua]  => ok
+#24 - imprimir salazar
