@@ -70,11 +70,11 @@ def main():
         elif not acao in acoes_validas:
             argumento_invalido("Acao", acao)
         # Passar execução para as funções de controle
-        elif posicao == "C":
+        elif posicao == posicoes_validas[0]:
             controlador( acao, matricula, coordenadores, turmas, info)
-        elif posicao == "P":
+        elif posicao == posicoes_validas[1]:
             controlador( acao, matricula, professores, turmas, info)
-        elif posicao == "A":
+        elif posicao == posicoes_validas[2]:
             controlador( acao, matricula, alunos, turmas, info)
         comando = input()
 
@@ -117,7 +117,7 @@ def imprimir_turmas(pessoa:list, info:list)->None:
             contador += 1
             print()
             print(f"#{contador:02}: {turma[0].upper()}")
-            print(f"---> Professor(a): {turma[3]}")
+            print(f"---> Professor(a): {turma[3][0]}")
             print(f"---> Horario: {'/'.join(turma[5])}")
             print(f"---> Matriculados: {len(turma[4])} aluno(s)")
     print()
@@ -128,7 +128,7 @@ def imprimir_turmas(pessoa:list, info:list)->None:
 
 def montar_turma(coordenador:list)->list:
     nome, dias = input().split(",")
-    turma = [nome, coordenador[2], coordenador[1], None, [], dias.split("/")]
+    turma = [nome, coordenador[2], coordenador, None, [], dias.split("/")]
     return turma
 
 
@@ -142,7 +142,7 @@ def ministrar_turma(professor:list, turmas:list)->list:
     if not turma_compativel(professor, turma, tem_professor=False):
         return []
     # Adicionar professor na turma e ocupar dias do professor
-    turma[3] = professor[1]
+    turma[3] = professor
     professor[5] += turma[5]
     return turma
 
@@ -157,7 +157,7 @@ def matricular_turma(aluno:list, turmas:list)->list:
     if not turma_compativel(aluno, turma):
         return []
     # Adicionar aluno na turma e ocupar dias do aluno
-    turma[4].append(aluno[1])
+    turma[4].append(aluno)
     aluno[5] += turma[5]
     return turma
 
@@ -187,7 +187,7 @@ def get_semestre(s:str)->int:
     i = get_posicao_sigla(s)
     primeiro = s.lower()[:-i].rfind("primeiro")
     segundo = s.lower()[:-i].rfind("segundo")
-    return 1 if segundo > primeiro else 0
+    return 2 if segundo > primeiro else 1
 
 
 # A primeira ocorrência de números anterior a sigla é garantida de ser um ano com 4 digitos
@@ -261,7 +261,6 @@ def get_turma(nome_da_turma:str, turmas:list)->list:
         return []
     return turmas[indice_turma]
 
-
 # ------------------------------------------------------------------------------------- #
 
 
@@ -324,6 +323,7 @@ def turma_compativel(pessoa:list, turma:list, tem_professor=True)->bool:
     # Verificar conflito de dias
     for dia in turma[5]:
         if dia in pessoa[4]:
+            print("Conflito de dias.")
             return False
     return True
 
