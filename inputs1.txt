@@ -18,11 +18,11 @@ bm11113121,Hjooz Xfbtmfz,Grifinoria
 do56334153,Ylqfhqw Fudeeh,Sonserina 
 fim
 C m co10001234
-Trato das Criaturas Mágicas,seg/qua
+Trato das Criaturas Magicas,seg/qua
 P m po09011155
-Trato das Criaturas Mágicas
+Trato das Criaturas Magicas
 A m al04012300
-Trato das Criaturas Mágicas
+Trato das Criaturas Magicas
 C m co00019876
 Pocoes,seg/qua
 C m co10001234
@@ -34,13 +34,13 @@ Defesa Contra as Artes das Trevas
 A m al04012300
 Defesa Contra as Artes das Trevas
 A m al21010135
-Trato das Criaturas Mágicas
+Trato das Criaturas Magicas
 A m al20002384
 Pocoes
 A m al00002011
-Trato das Criaturas Mágicas
+Trato das Criaturas Magicas
 C m co10001234
-Transfiguracao,seg
+Transfiguracao,ter
 C m co10001234
 Detencao - Floresta Proibida,sex/sab
 P m po10007241

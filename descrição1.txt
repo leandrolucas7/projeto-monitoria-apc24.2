@@ -31,7 +31,7 @@ fim
 #09 - adicionar harry na turma de criaturas  => ok
 #10 - adicionar malfoy na turma de pocoes => ok
 #11 - adicionar ginny na turma de criaturas  => ok
-#12 - adicionar turma de Transfiguração em grifinoria => [seg]  => ok
+#12 - adicionar turma de Transfiguração em grifinoria => [ter]  => ok
 #13 - adicionar turma de Detenção - Floresta Proibida => [sex/sab] => ok
 #14 - adicionar minerva a transfiguracao  => ok
 #15 - adicionar herminione a transiguracao  => ok

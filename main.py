@@ -78,8 +78,6 @@ def main():
             controlador( acao, matricula, alunos, turmas, info)
         comando = input()
 
-    print("-------------------------")
-    print(turmas[0])
 # FUNÇÃO DE CONTROLE ----------------------------------------------------------------- #
 
 def controlador(acao:str, matricula:str, pessoas:list, turmas:list, info:list)->None:
@@ -93,10 +91,10 @@ def controlador(acao:str, matricula:str, pessoas:list, turmas:list, info:list)->
     if acao == "i":
         imprimir_turmas(pessoa, info)
     elif acao == "m":
-        nomes_das_turmas = [item[0] for item in turmas]
         turma = []
         if pessoa[3].lower()  == posicoes[0]:
             turma = montar_turma(pessoa)
+            nomes_das_turmas = [item[0] for item in turmas]
             turmas.insert(insercao_binaria(turma[0], nomes_das_turmas), turma)
         elif pessoa[3].lower() == posicoes[1]:
             turma = ministrar_turma(pessoa, turmas)
@@ -104,6 +102,8 @@ def controlador(acao:str, matricula:str, pessoas:list, turmas:list, info:list)->
             turma = matricular_turma(pessoa, turmas)
         # Inserir turma de forma ordenada na lista de turmas da pessoa atual
         if turma:
+            # Considerar apenas as turmas da pessoa em questão
+            nomes_das_turmas = [item[0] for item in pessoa[4]]
             pessoa[4].insert(insercao_binaria(turma[0], nomes_das_turmas), turma)
 
 # ------------------------------------------------------------------------------------- #
@@ -321,9 +321,10 @@ def turma_compativel(pessoa:list, turma:list, tem_professor=True)->bool:
         return False
     elif not turma[3] and tem_professor:
         print("Turma não possui professor.")
+        return False
     # Verificar conflito de dias
     for dia in turma[5]:
-        if dia in pessoa[4]:
+        if dia in pessoa[5]:
             print("Conflito de dias.")
             return False
     return True
