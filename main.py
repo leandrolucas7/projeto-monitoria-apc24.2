@@ -84,7 +84,7 @@ def controlador(acao:str, matricula:str, pessoas:list, turmas:list, info:list)->
     # Verificar existência da pessoa com base na posição/matrícula recebida
     pessoa = busca_2d(matricula, pessoas)
     if not pessoa:
-        argumento_invalido("Matrícula", matricula)
+        argumento_invalido("Matricula", matricula)
         return
     # Executar ações com base no chamador correto
     posicoes = ["coordenador", "professor", "aluno"]
@@ -186,8 +186,8 @@ def get_responsavel(s:str)->str:
 # Tratar o primeiro semestre como 0 e o segundo como 1
 def get_semestre(s:str)->int:
     i = get_posicao_sigla(s)
-    primeiro = s.lower()[:-i].rfind("primeiro")
-    segundo = s.lower()[:-i].rfind("segundo")
+    primeiro = s.lower()[:i].rfind("primeiro")
+    segundo = s.lower()[:i].rfind("segundo")
     return 2 if segundo > primeiro else 1
 
 
@@ -211,12 +211,12 @@ def get_local(s:str)->str:
     return local if local[-1].isalnum() else local[:-1]
 
 
-# É garantido que a última ocorrência de uma sigla (de no mínimo 2 letras) em caixa alta e entre aspas duplas é a sigla
+# É garantido que a sigla do local é alfanumérica e está cercada pelas últimas aspas duplas
 def get_posicao_sigla(s:str)->int:
     while True:
         ultima_aspas = s.rfind('"')
         contagem = 0
-        while s[ultima_aspas - contagem - 1].isupper():    
+        while s[ultima_aspas - contagem - 1].isalnum():    
             contagem += 1
         if contagem >= 2 and s[ultima_aspas - contagem - 1]:
             return ultima_aspas - contagem - 1

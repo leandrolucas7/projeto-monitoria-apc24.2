@@ -15,18 +15,20 @@ al04012300,Hermione Granger,Grifinoria
 fim
 
 ---> AÇÕES
-01 - co10001234,Godric Gryffindor cria "Defesa Contra as Artes das Trevas" [seg/qua/sex] - Grifinoria
-02 - co10001234,Godric Gryffindor cria "Transfiguracao" [ter/qui] - Grifinoria
-03 - co10001234,Godric Gryffindor cria "Feiticos" [seg/sex] - Grifinoria
-04 - co00019876,Salazar Slytherin cria "Pocoes" [ter/qui] - Sonserina
-05 - po10007241,Minerva McGonagall ensina "Transfiguracao"
-06 - po10007241,Minerva McGonagall ensina "Feiticos"
-07 - po01011754,Severus Snape ensina "Defesa Contra as Artes das Trevas" **Erro de departamento
-08 - po01011754,Severus Snape ensina "Feiticos"
-09 - al04012300,Hermione Granger matricula em "Transfiguracao"
-10 - al04012300,Hermione Granger matricula em "Feiticos"
-11 - al21010135,Harry Potter matricula em "Feiticos"
-12 - al21010135,Harry Potter matricula em "Defesa Contra as Artes das Trevas" **Erro de falta de professor
-13 - al20002384,Draco Malfoy matricula em "Pocoes"
-14 - IMPRIMIR co10001234,Godric Gryffindor
-15 - IMPRIMIR al20002384,Draco Malfoy
+#01 - co10001234,Godric Gryffindor cria "Defesa Contra as Artes das Trevas" [seg/qua/sex] - Grifinoria
+#02 - co10001234,Godric Gryffindor cria "Transfiguracao" [ter/qui] - Grifinoria
+#03 - co10001234,Godric Gryffindor cria "Feiticos" [seg/sex] - Grifinoria
+#04 - co00019876,Salazar Slytherin cria "Pocoes" [ter/qui] - Sonserina
+#05 - po10007241,Minerva McGonagall ensina "Transfiguracao"
+#06 - po10007241,Minerva McGonagall ensina "Feiticos"
+#07 - po01011754,Severus Snape ensina "Defesa Contra as Artes das Trevas" **Erro de departamento
+#08 - po01011754,Severus Snape ensina "Pocoes"
+#09 - al04012300,Hermione Granger matricula em "Transfiguracao"
+#10 - al04012300,Hermione Granger matricula em "Feiticos"
+#11 - al21010135,Harry Potter matricula em "Feiticos"
+#12 - al21010135,Harry Potter matricula em "Defesa Contra as Artes das Trevas" **Erro de falta de professor
+#13 - al20002384,Draco Malfoy matricula em "Pocoes"
+#14 - Imprimir aluno inexistente (aaaaaaaaaa) ** Erro de matrícula inválida
+#15 - IMPRIMIR co10001234,Godric Gryffindor
+#16 - al20002384,Draco Malfoy matricula em "Estudo dos Trouxas" ** Erro de turma inexistente
+#17 - IMPRIMIR al20002384,Draco Malfoy
