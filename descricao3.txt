@@ -1,0 +1,35 @@
+---> DADOS
+O conselho, na figura de Alvo Dumbledore, acolhe os membros academicos para o segundo semestre de 1995 na "EMBH" - Escola de Magia e Bruxaria de Hogwarts
+COORDENADORES
+co10001234,Godric Gryffindor,Grifinoria
+fim
+PROFESSORES
+po10007241,Minerva McGonagall,Grifinoria
+fim
+ALUNOS
+al21010135,Harry Potter,Grifinoria
+al04012300,Hermione Granger,Grifinoria
+fim
+C m co10001234
+Transfiguracao,qui/sex
+C m co10001234
+Defesa Contra as Artes das Trevas,seg/qua/sex
+P m po10007241
+Transfiguracao
+P m po10007241
+Defesa Contra as Artes das Trevas
+A m al04012300
+Transfiguracao
+A m al21010135
+Transfiguracao
+A i al21010135
+FIM
+
+---> AÇÕES
+#01 - co10001234,Godric Gryffindor cria "Transfiguracao" [qui/sex] - Grifinoria
+#02 - co10001234,Godric Gryffindor cria "Defesa Contra as Artes das Trevas" [seg/qua/sex] - Grifinoria
+#03 - po10007241,Minerva McGonagall ensina "Transfiguracao"
+#04 - po10007241,Minerva McGonagall ensina "Defesa Contra as Artes das Trevas" **Erro de horario
+#05 - al04012300,Hermione Granger matricula em "Transfiguracao"
+#06 - al21010135,Harry Potter matricula em "Transfiguracao"
+#07 - IMPRIMIR al21010135,Harry Potter

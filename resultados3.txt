@@ -1,0 +1,15 @@
+Conflito de dias.
+>>>>>
+ESCOLA DE MAGIA E BRUXARIA DE HOGWARTS
+Departamento Grifinoria
+[Aluno(a): Harry Potter]
+
+#01: TRANSFIGURACAO
+---> Professor(a): Minerva McGonagall
+---> Horario: qui/sex
+---> Matriculados: 2 aluno(s)
+
+==> 1 turmas ativa(s).
+
+"Alvo Dumbledore - Conselho (1995.2)"
+<<<<<

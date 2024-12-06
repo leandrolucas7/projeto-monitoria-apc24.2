@@ -1,0 +1,37 @@
+Turma de departamento diferente.
+Turma não possui professor.
+Matricula 'aaaaaaaaaa' invalido(a).
+>>>>>
+ESCOLA DE MAGIA E BRUXARIA DE HOGWARTS
+Departamento Grifinoria
+[Coordenador(a): Godric Gryffindor]
+
+#01: FEITICOS
+---> Professor(a): Minerva McGonagall
+---> Horario: seg/sex
+---> Matriculados: 2 aluno(s)
+
+#02: TRANSFIGURACAO
+---> Professor(a): Minerva McGonagall
+---> Horario: ter/qui
+---> Matriculados: 1 aluno(s)
+
+==> 2 turmas ativa(s).
+
+"Alvo Dumbledore - Diretoria (2025.1)"
+<<<<<
+Turma inexistente.
+>>>>>
+ESCOLA DE MAGIA E BRUXARIA DE HOGWARTS
+Departamento Sonserina
+[Aluno(a): Draco Malfoy]
+
+#01: POCOES
+---> Professor(a): Severus Snape
+---> Horario: ter/qui
+---> Matriculados: 1 aluno(s)
+
+==> 1 turmas ativa(s).
+
+"Alvo Dumbledore - Diretoria (2025.1)"
+<<<<<
