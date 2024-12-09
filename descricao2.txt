@@ -1,20 +1,14 @@
----> DADOS
 A diretoria, representada por Alvo Dumbledore, recebe os docentes e discentes para o primeiro semestre de 2025 na "EMBH" - Escola de Magia e Bruxaria de Hogwarts
-COORDENADORES
+DADOS
 co10001234,Godric Gryffindor,Grifinoria
 co00019876,Salazar Slytherin,Sonserina
-fim
-PROFESSORES
 po01011754,Severus Snape,Sonserina
 po10007241,Minerva McGonagall,Grifinoria
-fim
-ALUNOS
 al21010135,Harry Potter,Grifinoria
 al20002384,Draco Malfoy,Sonserina
 al04012300,Hermione Granger,Grifinoria
 fim
-
----> AÇÕES
+ACOES
 #01 - co10001234,Godric Gryffindor cria "Defesa Contra as Artes das Trevas" [seg/qua/sex] - Grifinoria
 #02 - co10001234,Godric Gryffindor cria "Transfiguracao" [ter/qui] - Grifinoria
 #03 - co10001234,Godric Gryffindor cria "Feiticos" [seg/sex] - Grifinoria

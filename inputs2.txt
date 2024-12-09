@@ -1,46 +1,43 @@
 A diretoria, representada por Alvo Dumbledore, recebe os docentes e discentes para o primeiro semestre de 2025 na "EMBH" - Escola de Magia e Bruxaria de Hogwarts
-COORDENADORES
+DADOS
 th45554325,Phsent Pexqqnishe,Grifinoria
 rf33324563,Btitutc Bivampclg,Sonserina
-fim
-PROFESSORES
 gh54544805,Drarebd Divgr,Sonserina
 jk78881648,Mqluhdy MwSklysynn,Grifinoria
-fim
-ALUNOS
 fq76565685,Mfwwd Utyyjw,Grifinoria
 ep64446724,Hvegs Qepjsc,Sonserina
 al04012300,Hermione Granger,Grifinoria
 fim
-C m co10001234
+ACOES
+co10001234 m
 Defesa Contra as Artes das Trevas,seg/qua/sex
-C m co10001234
+co10001234 m
 Transfiguracao,ter/qui
-C m co10001234
+co10001234 m
 Feiticos,seg/sex
-C m co00019876
+co00019876 m
 Pocoes,ter/qui
-P m po10007241
+po10007241 m
 Transfiguracao
-P m po10007241
+po10007241 m
 Feiticos
-P m po01011754
+po01011754 m
 Defesa Contra as Artes das Trevas
-P m po01011754
+po01011754 m
 Pocoes
-A m al04012300
+al04012300 m
 Transfiguracao
-A m al04012300
+al04012300 m
 Feiticos
-A m al21010135
+al21010135 m
 Feiticos
-A m al21010135
+al21010135 m
 Defesa Contra as Artes das Trevas
-A m al20002384
+al20002384 m
 Pocoes
-P i aaaaaaaaaa
-C i co10001234
-A m al20002384
+aaaaaaaaaa i
+co10001234 i
+al20002384 m
 Estudo dos Trouxas
-A i al20002384
+al20002384 i
 FIM

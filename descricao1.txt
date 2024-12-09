@@ -1,16 +1,11 @@
----> DADOS
 A reitoria, na presença de Alvo Dumbledore, deseja um ótimo primeiro semestre de 2025 na "EMBH" - Escola de Magia e Bruxaria de Hogwarts
-COORDENADORES
+DADOS
 co10001234,Godric Gryffindor,Grifinoria
 co00019876,Salazar Slytherin,Sonserina
-fim
-PROFESSORES
 po09011155,Rubeus Hagrid,Grifinoria
 po12010533,Horacio Slughorn,Sonserina
 po17009995,Gilderoy Lockhart,Corvinal
 po10007241,Minerva McGonagall,Grifinoria
-fim
-ALUNOS
 al21010135,Harry Potter,Grifinoria
 al14001248,Cedrico Diggory,Lufa-Lufa
 al20002384,Draco Malfoy,Sonserina
@@ -18,8 +13,7 @@ al04012300,Hermione Granger,Grifinoria
 al00002011,Ginny Weasley,Grifinoria
 al23001823,Vincent Crabbe,Sonserina
 fim
-
----> AÇÕES
+ACOES
 #01 - criar 'Trato das Criaturas Mágicas' em Grifinoria [seg/qua]  => ok
 #02 - Adicionar o hagrid como professor da turma acima  => ok
 #03 - Adicionar hermione na turma acima  => ok 

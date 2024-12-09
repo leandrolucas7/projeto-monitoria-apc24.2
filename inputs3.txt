@@ -1,25 +1,22 @@
 O conselho, na figura de Alvo Dumbledore, acolhe os membros academicos para o segundo semestre de 1995 na "EMBH" - Escola de Magia e Bruxaria de Hogwarts
-COORDENADORES
+DADOS
 th45554325,Phsent Pexqqnishe,Grifinoria
-fim
-PROFESSORES
 jk78881648,Mqluhdy MwSklysynn,Grifinoria
-fim
-ALUNOS
 fq76565685,Mfwwd Utyyjw,Grifinoria
 al04012300,Hermione Granger,Grifinoria
 fim
-C m co10001234
+ACOES
+co10001234 m
 Transfiguracao,qui/sex
-C m co10001234
+co10001234 m
 Defesa Contra as Artes das Trevas,seg/qua/sex
-P m po10007241
+po10007241 m
 Transfiguracao
-P m po10007241
+po10007241 m
 Defesa Contra as Artes das Trevas
-A m al04012300
+al04012300 m
 Transfiguracao
-A m al21010135
+al21010135 m
 Transfiguracao
-A i al21010135
+al21010135 i
 FIM

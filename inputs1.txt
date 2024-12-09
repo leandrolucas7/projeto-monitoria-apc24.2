@@ -1,15 +1,11 @@
 A reitoria, na presença de Alvo Dumbledore, deseja um ótimo primeiro semestre de 2025 na "EMBH" - Escola de Magia e Bruxaria de Hogwarts.
-COORDENADORES
+DADOS
 th45554325,Phsent Pexqqnishe,Grifinoria
 rf33324563,Btitutc Bivampclg,Sonserina
-fim
-PROFESSORES
 fg45433394,Datqac Nuodmr,Grifinoria
 hi54656136,Pifwuoi Elcqpifj,Sonserina
 fg37445554,Omjrqdgw Jgsknudb,Corvinal
 jk78881648,Mqluhdy MwSklysynn,Grifinoria
-fim
-ALUNOS
 fq76565685,Mfwwd Utyyjw,Grifinoria
 it92889028,Kmlzqkw Lqoowzg,Lufa-Lufa
 ep64446724,Hvegs Qepjsc,Sonserina
@@ -17,50 +13,51 @@ al04012300,Hermione Granger,Grifinoria
 bm11113121,Hjooz Xfbtmfz,Grifinoria
 do56334153,Ylqfhqw Fudeeh,Sonserina 
 fim
-C m co10001234
+ACOES
+co10001234 m
 Trato das Criaturas Magicas,seg/qua
-P m po09011155
+po09011155 m
 Trato das Criaturas Magicas
-A m al04012300
+al04012300 m
 Trato das Criaturas Magicas
-C m co00019876
+co00019876 m
 Pocoes,seg/qua
-C m co10001234
+co10001234 m
 Defesa Contra as Artes das Trevas,qui/sex
-P m po12010533
+po12010533 m
 Pocoes
-P m po17009995
+po17009995 m
 Defesa Contra as Artes das Trevas
-A m al04012300
+al04012300 m
 Defesa Contra as Artes das Trevas
-A m al21010135
+al21010135 m
 Trato das Criaturas Magicas
-A m al20002384
+al20002384 m
 Pocoes
-A m al00002011
+al00002011 m
 Trato das Criaturas Magicas
-C m co10001234
+co10001234 m
 Transfiguracao,ter
-C m co10001234
+co10001234 m
 Detencao - Floresta Proibida,sex/sab
-P m po10007241
+po10007241 m
 Transfiguracao
-A m al04012300
+al04012300 m
 Transfiguracao
-P m po10007241
+po10007241 m
 Defesa Contra as Artes das Trevas
-P m po09011155
+po09011155 m
 Detencao - Floresta Proibida
-A m al21010135
+al21010135 m
 Detencao - Floresta Proibida
-A m al21010135
+al21010135 m
 Defesa Contra as Artes das Trevas
-A m al00002011
+al00002011 m
 Defesa Contra as Artes das Trevas
-P i po10007241
-A i al04012300
-C i co10001234
-C m co00019876
+po10007241 i
+al04012300 i
+co10001234 i
+co00019876 m
 Feiticos,seg/ter/qua
-C i co00019876
+co00019876 i
 FIM

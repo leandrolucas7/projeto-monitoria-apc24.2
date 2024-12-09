@@ -1,4 +1,8 @@
 def main():
+    ### CONSTANTES ###
+    POSICOES = ["Coordenador", "Professor", "Aluno"]
+    ACOES = ["m", "i"]
+
     ### COLETAR INFORMAÇÕES GERAIS ###
     info = input()
     cargo = get_cargo(info)
@@ -11,78 +15,70 @@ def main():
     info = [cargo, responsavel, semestre, ano, local]
     # coordenador: ["matricula", "nome", "departamento", "posição", [turma]]
     coordenadores = []
-    # professor: ["matricula", "nome", "departamento", "posição", [turma], ["seg", "qui"]]
+    # professor: ["matricula", "nome", "departamento", "posição", [turma], ["seg", "qua"]]
     professores = []
     # aluno: ["matricula", "nome", "departamento", "posição", [turma], ["seg", "qui"]]
     alunos = []
-    # turma: ["nome", "departamento", "coordenador", ""]
+    # turma: ["nome", "departamento", coordenador, professor, [aluno, aluno, ...], ["seg", "sex"]]
     turmas = []
 
     ### COLETAR / DECIFRAR DADOS PESSOAIS ###
-    posicoes = ["coordenador", "professor", "aluno"]
-    for posicao in posicoes:
-        # Indicador da categoria/posição da sequência atual
-        input()
-        # Os inputs da categoria encerram com a palavra 'fim'
+    # Tipos de inputs:
+        # Indicador da sequência de próximos inputs: "DADOS"
+        # Comando: MATRÍCULA NOME DEPARTAMENTO
+        # Encerramento: "FIM"
+    input()
+    # Primeira linha de dados válidos
+    dados = input()
+    while dados != "fim":
+        dados = dados.split(",") 
+        # Decifrar dados privados (Matrícula e Nome) - É garantido que os dados iniciais são válidos
+        dados = decifrar_dados(dados)
+        posicao = get_posicao(dados[0])
+        # Adidionar posição e sub-listas para turmas e dias
+        dados.append(posicao)
+        dados.append([])
+        dados.append([])
+        # Adidionar listas com informações pessoais as 'super' listas correspondentes
+        if posicao == POSICOES[0]:
+            # Remover sub-lista de horários do coordenador
+            dados.pop()
+            coordenadores.append(dados)
+        elif posicao == POSICOES[1]:
+            professores.append(dados)
+        elif posicao == POSICOES[2]:
+            alunos.append(dados)
         dados = input()
-        while dados != "fim":
-            dados = dados.split(",")
-            # Decifrar dados privados (Matrícula e Nome)
-            # Coordenadores e professores tem uma camada extra de segurança (Cifra de Substituição)
-            if posicao == posicoes[0] or posicao == posicoes[1]:
-                dados[0] = criptografia_substituicao(dados[0])
-                dados[1] = criptografia_substituicao(dados[1])
-            # Criptografia Geral (Cifra de César). O último dígito da matrícula é o fator de rotação 
-            # O último dígito da matrícula deve ser mantido
-            rotacao = int(dados[0][-1])
-            dados[0] = criptografia_cesar(dados[0], -rotacao)
-            dados[0] = dados[0][:-1] + str(rotacao)
-            dados[1] = criptografia_cesar(dados[1], -rotacao)
-
-            # Adidionar posição e sub-listas para turmas e dias
-            dados.append(posicao)
-            dados.append([])
-            dados.append([])
-            # Adidionar listas com informações pessoais as 'super' listas correspondentes
-            if posicao == posicoes[0]:
-                # Remover sub-lista de horários do coordenador
-                dados.pop()
-                coordenadores.append(dados)
-            elif posicao == posicoes[1]:
-                professores.append(dados)
-            elif posicao == posicoes[2]:
-                alunos.append(dados)
-            dados = input()
 
     ### INICIAR SISTEMA DE AÇÕES ###
     # Tipos de inputs:
+        # Indicador da sequência de próximos inputs: "ACOES"
+        # Comando: MATRÍCULA AÇÃO
         # Encerramento: "FIM"
-        # Comando: POSIÇÃO AÇÃO MATRÍCULA
-    # Posições válidas: "C" (Coordenador) "P" (Professor), "A" (Aluno)
-    posicoes_validas = ["C", "P", "A"]
-    acoes_validas = ["m", "i"]
+    input()
+    # Primeira linha de comandos válidos
     comando = input()
     while comando != "FIM":
-        posicao, acao, matricula = comando.split()
+        matricula, acao = comando.split()
+        posicao = get_posicao(matricula)
         # Verificar válidade da posição e ação
-        if not posicao in posicoes_validas:
-            argumento_invalido("Posicao", posicao)
-        elif not acao in acoes_validas:
+        if not acao in ACOES:
             argumento_invalido("Acao", acao)
         # Passar execução para as funções de controle
-        elif posicao == posicoes_validas[0]:
+        elif posicao == POSICOES[0]:
             controlador( acao, matricula, coordenadores, turmas, info)
-        elif posicao == posicoes_validas[1]:
+        elif posicao == POSICOES[1]:
             controlador( acao, matricula, professores, turmas, info)
-        elif posicao == posicoes_validas[2]:
+        elif posicao == POSICOES[2]:
             controlador( acao, matricula, alunos, turmas, info)
         comando = input()
+
 
 # FUNÇÃO DE CONTROLE ----------------------------------------------------------------- #
 
 def controlador(acao:str, matricula:str, pessoas:list, turmas:list, info:list)->None:
     # Verificar existência da pessoa com base na posição/matrícula recebida
-    pessoa = busca_2d(matricula, pessoas)
+    pessoa = buscar_sublista(matricula, pessoas)
     if not pessoa:
         argumento_invalido("Matricula", matricula)
         return
@@ -222,7 +218,7 @@ def get_posicao_sigla(s:str)->int:
             return ultima_aspas - contagem - 1
 
 
-def busca_2d(elemento:str, l:list, sub_posicao:int=0)->list:
+def buscar_sublista(elemento:str, l:list, sub_posicao:int=0)->list:
     for sub_lista in l:
         if elemento == sub_lista[sub_posicao]:
             return sub_lista
@@ -261,6 +257,17 @@ def get_turma(nome_da_turma:str, turmas:list)->list:
         print("Turma inexistente.")
         return []
     return turmas[indice_turma]
+
+
+def get_posicao(matricula:str)->str:
+    sigla = matricula[:2]
+    if sigla == "co":
+        return "Coordenador"
+    elif sigla == "po":
+        return "Professor"
+    elif sigla == "al":
+        return "Aluno"
+    return ""
 
 # ------------------------------------------------------------------------------------- #
 
@@ -305,6 +312,25 @@ def criptografia_substituicao(s:str)->str:
     return resultado
 
 
+def decifrar_dados(dados:list)->list:
+    # Função interna para facilitar lógica / evitar repetição desnecessária
+    def aplicar_cesar(matricula:str, nome:str)->list:
+        rotacao = int(matricula[-1])
+        matricula_decifrada = criptografia_cesar(matricula, -rotacao)
+        matricula_decifrada = matricula_decifrada[:-1] + str(rotacao)
+        nome_decifrado = criptografia_cesar(nome, -rotacao)
+        return [matricula_decifrada, nome_decifrado, dados[2]]
+
+    # Supor que é aluno: Apenas Cifra de César
+    dados_decifrados = aplicar_cesar(dados[0], dados[1])
+    if get_posicao(dados_decifrados[0]) == "Aluno":
+        return dados_decifrados
+    # Como é garantido que os dados inicias são válidos , é certo que será coordenador ou professor
+    dados_decifrados = [criptografia_substituicao(dados[0]), criptografia_substituicao(dados[1]), dados[2]]
+    dados_decifrados = aplicar_cesar(dados_decifrados[0], dados_decifrados[1])
+    return dados_decifrados
+    
+
 def turma_valida(turma:list)->bool:
     # Existe professor e aluno na turma
     return turma[3] and len(turma[4]) > 0
@@ -348,6 +374,7 @@ def imprimir_cabecalho(local:str, departamento:str, nome:str, posicao:str)->None
 def imprimir_rodape(nome:str, cargo:str, ano:str, semestre:str)->None:
     print(f'"{nome.title()} - {cargo.capitalize()} ({ano}.{semestre})"')
     print("<<<<<")
+
 # ------------------------------------------------------------------------------------- #
 
 
