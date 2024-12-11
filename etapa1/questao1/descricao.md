@@ -14,16 +14,16 @@ Ele percebeu que, para toda nova invenção/descoberta que o livro citava, os do
 
 **Primeiro parágrafo:**
 
-> A <span style="color: red">imprensa</span>, criada por <span style="color: green">Johannes Gutenberg</span>, trouxe inúmeras mudanças para nossa sociedade. Ele <span style="color: blue">inventou</span> esse instrumento em <span style="color: orange">1440</span> na <span style="color: fuchsia">"RFA"</span> - <span style="color: teal">Republica Federal da Alemanha</span>.
+>A **imprensa**, criada por **Johannes Gutenberg**, trouxe inúmeras mudanças para nossa sociedade. Ele **inventou** esse instrumento em **1440** na **"RFA"** - **Republica Federal da Alemanha**.
 
-> A <span style="color: red">gravidade</span>, foi descrita por <span style="color: green">Isaac Newton</span>, sua "teoria da gravidade" trouxe grandes avanços para a astronomia. Newton <span style="color: blue">descobriu</span> esse fenômeno em <span style="color: orange">1687</span> no <span style="color: fuchsia">"RUGI"</span> - <span style="color: teal">Reino Unido da Gra-Bretanha e Irlanda do Norte</span>.
+>A **gravidade**, foi descrita por **Isaac Newton**, sua "teoria da gravidade" trouxe grandes avanços para a astronomia. Newton **descobriu** esse fenômeno em **1687** no **"RUGI"** - **Reino Unido da Gra-Bretanha e Irlanda do Norte**.
 
-- <span style="color: red">Tópico</span>: segunda palavra e imediatamente antes de uma vírgula;
-- <span style="color: green">Pessoa</span>: nome e sobrenome imediatamente antes da segunda vírgula do parágrafo;
-- <span style="color: blue">Categoria</span>: a palavra "inventou" ou "descobriu" mais próxima e anterior a abreviação do local;
-- <span style="color: orange">Ano</span>: A primeira aparição de 4 dígitos em sequência mais próxima e anterior a abreviação do local;
-- <span style="color: fuchsia">Abreviação</span>: A última aparição de qualquer palavra entre aspas duplas;
-- <span style="color: teal">Invenção / Descoberta</span>: Após a abreviação e o hífen e sempre alfanumérico.
+- **Tópico**: segunda palavra e imediatamente antes de uma vírgula;
+- **Pessoa**: nome e sobrenome imediatamente antes da segunda vírgula do parágrafo;
+- **Categoria**: a palavra "inventou" ou "descobriu" mais próxima e anterior a abreviação do local;
+- **Ano**: A primeira aparição de 4 dígitos em sequência mais próxima e anterior a abreviação do local;
+- **Abreviação**: A última aparição de qualquer palavra entre aspas duplas;
+- **Invenção / Descoberta**: Após a abreviação e o hífen e sempre alfanumérico.
 
 **Segundo parágrafo:**
 
