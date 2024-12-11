@@ -2,9 +2,6 @@
   <h1>QUESTÃO 01</h1>
     <img src="../../assets/velozes.jpg" align="center" style="width: 600px; height: 340px;" />
   </p>
-  <p>
-    “ADICIONAR FRASE!!!!!!!!!!!"
-  </p>
 </div>
 
 ## 📝 Na dúvida, resuma.
@@ -54,7 +51,7 @@ Defina as funções listadas abaixo. Todas vão receber variações do primeiro 
 ## 👀 DEMONSTRAÇÃO
 
 **Considerando os exemplos de primeiro parágrafo acima, assuma - para os testes abaixo - que conteúdo da variável `texto` corresponde ao primeiro e segundo exemplo, respectivamente.**
-<table class="coderunnerexamples">
+<table>
 
 <thead>
     <tr>
