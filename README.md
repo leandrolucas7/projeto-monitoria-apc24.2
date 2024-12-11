@@ -43,10 +43,10 @@ Vale ressaltar que, apesar de o projeto final poder ser construído apenas com e
 
 ## 🧩 SEÇÕES DO PROJETO
 
-### 1️⃣ [Muitas Palavras não indicam necessariamente muita sabedoria](https://www.example.com)
+### 1️⃣ [Muitas Palavras não indicam necessariamente muita sabedoria](etapa1/descricao.md)
 
 <details>
-<summary><b>VER DETALHES</b></summary>  
+<summary><b>Ver detalhes</b></summary>  
     
     TÓPICOS ABORDADOS:
     - Funções;
@@ -55,16 +55,10 @@ Vale ressaltar que, apesar de o projeto final poder ser construído apenas com e
 
     RESUMO:
     - Definir funções para extrair informações de uma string e imprimi-la em um formato especificado.
-    
-- QUESTÕES:
-  1. [fdsfadsf](htts://google.com)
-  2. [fdsfadsf](htts://google.com)
-  3. [fdsfadsf](htts://google.com)
 </details>
 
-<br>
 
-<img src="assets/nuvem-de-palavras.avif" style="width: 600px; height: 340;"/>
+<img src="assets/nuvem-de-palavras.avif" style="width: 300px; height: 170px;"/>
 
 ---
 
