@@ -35,30 +35,97 @@ Essas subtarefas estabelecem os fundamentos do trabalho final - que amplia os co
 5. Recursividade;
 6. Estruturas de dados homogêneas `unidimensionais`; 
 7. Estruturas de dados homogêneas `multidimensionais`;
-8. Estruturas de dados Y;
+8. Estruturas de dados `heterogêneas`;
 
 Os tópicos se acumulam durante o andamento do projeto.
 
 Vale ressaltar que, apesar de o projeto final poder ser construído apenas com esses tópicos, outras implementações - mais eficientes - podem fazer uso de tópicos não cobertos no roteiro do curso.
 
-## 🧩 SEÇÕES DO PROJETO
+## 🧩 ETAPAS DO PROJETO
 
-### 1️⃣ [Muitas Palavras não indicam necessariamente muita sabedoria](etapa1/descricao.md)
+### 1️⃣ [Muitas Palavras não indicam necessariamente muita sabedoria.](etapa1/descricao.md)
 
 <details>
 <summary><b>Ver detalhes</b></summary>  
     
-    TÓPICOS ABORDADOS:
+  - **TÓPICOS ABORDADOS:**
     - Funções;
     - Fluxo de controle;
     - Strings.
 
-    RESUMO:
+  - **RESUMO:**
     - Definir funções para extrair informações de uma string e imprimi-la em um formato especificado.
 </details>
 
+---
 
-<img src="assets/nuvem-de-palavras.avif" style="width: 300px; height: 170px;"/>
+### 2️⃣ [O nome é Bond, James Bond.](etapa2/descricao.md)
+
+<details>
+<summary><b>Ver detalhes</b></summary>  
+    
+  - **TÓPICOS ABORDADOS:**
+    - Todos os anteriores;
+    - While loop;
+    - For loop.
+
+  - **RESUMO:**
+    - Implementar funções capazes de cifrar e decifrar mensagens;
+    - Combinar tipos diferentes de cifras;
+    - Manipular textos codificados.
+</details>
 
 ---
 
+### 3️⃣ [Quem arruma antes não perde tempo depois.](final/descricao.md)
+
+<details>
+<summary><b>Ver detalhes</b></summary>  
+    
+  - **TÓPICOS ABORDADOS:**
+    - Todos os anteriores;
+    - Recursividade;
+    - Introdução às listas.
+
+  - **RESUMO:**
+    - Ordenar listas;
+    - Montar uma lista ordenada;
+    - Busca em lista bidimensional.
+</details>
+
+---
+
+### 4️⃣ [Se está empilhado, está organizado.](etapa4/descricao.md)
+
+<details>
+<summary><b>Ver detalhes</b></summary>  
+    
+  - **TÓPICOS ABORDADOS:**
+    - Todos os anteriores;
+    - Estruturas de dados homogêneas unidimensionais;
+    - Estruturas de dados homogêneas multidimensionais;
+    - Estruturas de dados heterogêneas;
+
+  - **RESUMO:**
+    - Montar uma listas multidimensionais;
+    - Manipular listas multidimensionais;
+    - Ordenar listas multidimensionais.
+</details>
+
+##  🏆 PROJETO FINAL
+
+### ✅ [Sem nome definido!!!!!!!](etapa1/descricao.md)
+
+<details>
+<summary><b>Ver detalhes</b></summary>  
+    
+  - **TÓPICOS ABORDADOS:**
+    - Todos os anteriores;
+    - Reutilizar e adaptar 'módulos' construídos anteriormente;
+    - Caso tenha cumprido as etapas anteriores, grande parte da funcionalidade do programa já está construída - mesmo que indiretamente. O desafio agora é juntar as peças de acordo com a lógica do projeto.
+
+  - **RESUMO:**
+    - Construir um simulador de gestor escolar que realiza cadastros e imprime informações. Esse gestor possui diferentes níveis de cadastros - com funcionalidades diferentes. 
+</details>
+
+---
