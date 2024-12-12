@@ -216,6 +216,46 @@ adicionar flowchart
 
 ## 👀 DEMONSTRAÇÃO
 
+**Dados Decifrados para facilitar leitura das demonstrações:**
+
+<details>
+<summary><b>Demonstração 01</b></summary>
+<div>DADOS</div>
+<div>co10001234,Godric Gryffindor,Grifinoria</div>
+<div>po10007241,Minerva McGonagall,Grifinoria</div>  
+<div>al21010135,Harry Potter,Grifinoria</div>
+<div>al04012300,Hermione Granger,Grifinoria</div>
+</details>
+
+<details>
+<summary><b>Demonstração 02</b></summary>
+<div>DADOS</div>
+<div>co10001234,Godric Gryffindor,Grifinoria</div>
+<div>co00019876,Salazar Slytherin,Sonserina</div>
+<div>po01011754,Severus Snape,Sonserina</div>
+<div>po10007241,Minerva McGonagall,Grifinoria</div>
+<div>al21010135,Harry Potter,Grifinoria</div>
+<div>al20002384,Draco Malfoy,Sonserina</div>
+<div>al04012300,Hermione Granger,Grifinoria</div>
+</details>
+
+<details>
+<summary><b>Demonstração 03</b></summary>
+<div>DADOS</div>
+<div>co10001234,Godric Gryffindor,Grifinoria</div>
+<div>co00019876,Salazar Slytherin,Sonserina</div>
+<div>po09011155,Rubeus Hagrid,Grifinoria</div>
+<div>po12010533,Horacio Slughorn,Sonserina</div>
+<div>po17009995,Gilderoy Lockhart,Corvinal</div>
+<div>po10007241,Minerva McGonagall,Grifinoria</div>
+<div>al21010135,Harry Potter,Grifinoria</div>
+<div>al14001248,Cedrico Diggory,Lufa-Lufa</div>
+<div>al20002384,Draco Malfoy,Sonserina</div>
+<div>al04012300,Hermione Granger,Grifinoria</div>
+<div>al00002011,Ginny Weasley,Grifinoria</div>
+<div>al23001823,Vincent Crabbe,Sonserina</div>
+</details>
+
 <table>
 
 <thead>
