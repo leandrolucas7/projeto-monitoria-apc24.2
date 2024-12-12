@@ -43,7 +43,7 @@ Vale ressaltar que, apesar de o projeto final poder ser construído apenas com e
 
 ## 🧩 ETAPAS DO PROJETO
 
-### 1️⃣ [Muitas Palavras não indicam necessariamente muita sabedoria.](etapa1/descricao.md)
+### 1️⃣ [Muitas palavras não indicam necessariamente muita sabedoria.](etapa1/descricao.md)
 
 <details>
 <summary><b>Ver detalhes</b></summary>  
@@ -114,7 +114,7 @@ Vale ressaltar que, apesar de o projeto final poder ser construído apenas com e
 
 ##  🏆 PROJETO FINAL
 
-### ✅ [Sem nome definido!!!!!!!](etapa1/descricao.md)
+### ✅ [Com grandes poderes vêm grandes responsabilidades.](final/descricao.md)
 
 <details>
 <summary><b>Ver detalhes</b></summary>  
