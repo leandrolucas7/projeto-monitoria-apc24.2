@@ -61,16 +61,16 @@ Defina as funções listadas abaixo. Todas vão receber variações do primeiro 
 </thead>
 
 <tbody>
-    <!– Primeiro Teste –>
+    <!-- Primeiro Teste -->
     <tr>
-        <!– Inputs –>
+        <!-- Inputs -->
         <td><pre>get_topico(texto)
 get_pessoa(texto)
 get_categoria(texto)
 get_ano(texto)
 get_local(texto)
         </pre></td>
-        <!– Outputs –>
+        <!-- Outputs -->
         <td><pre>Imprensa
 Johannes Gutenberg
 Invencao
@@ -78,17 +78,16 @@ Invencao
 Republica Federal da Alemanha
         </pre></td>
     </tr>
-    <!––>
-    <!– Segundo Teste –>
+    <!-- Segundo Teste -->
     <tr>
-        <!– Inputs –>
+        <!-- Inputs -->
         <td><pre>get_topico(texto)
 get_pessoa(texto)
 get_categoria(texto)
 get_ano(texto)
 get_local(texto)
         </pre></td>
-        <!– Outputs –>
+        <!-- Outputs -->
         <td><pre>Gravidade
 Isaac Newton
 Descoberta

@@ -45,14 +45,14 @@ Você receberá 2 strings, uma contendo as informações gerais sobre o tópico 
 </thead>
 
 <tbody>
-    <!– Primeiro Teste –>
+    <!-- Primeiro Teste -->
     <tr>
-        <!– Inputs –>
+        <!-- Inputs -->
         <td><pre>
 A imprensa, criada por Johannes Gutenberg, trouxe inúmeras mudanças para nossa sociedade. Ele inventou esse instrumento em 1440 na "RFA" - Republica Federal da Alemanha.
 Alguns avanços são, disseminação do conhecimento,  alfabetização em massa, revolução científica, surgimento dos jornais.
         </pre></td>
-        <!– Outputs –>
+        <!-- Outputs -->
         <td><pre>>>>>>
 IMPRENSA
 Invencao
@@ -66,7 +66,6 @@ Invencao
 <<<<<
         </pre></td>
     </tr>
-    <!––>
 </tbody>
 
 </table>

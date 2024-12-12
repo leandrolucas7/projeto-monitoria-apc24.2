@@ -3,9 +3,6 @@
   <h1>ETAPA 01</h1>
     <img src="../assets/nuvem-de-palavras.avif" align="center" style="width: 600px; height: 340px;" />
   </p>
-  <p>
-    “ADICIONAR FRASE!!!!!!!!!!!"
-  </p>
 </div>
 
 ## 📝 Muitas palavras não indicam necessariamente muita sabedoria.
@@ -17,18 +14,12 @@ Jaime Barbosa, que também é aluno de programação e, por consequência, obcec
 
 ### 1️⃣ [Na dúvida, resuma.](questao1/descricao.md)
 
-<img src="../assets/velozes.jpg" style="width: 300px; height: 170px;"/>
-
 ---
 
 ### 2️⃣ [Onde não há normas, a ordem se perde.](questao2/descricao.md)
 
-<img src="../assets/neymar.jpg" style="width: 300px; height: 170px;"/>
-
 ---
 
 ### 3️⃣ [Dividir para conquistar.](questao3/descricao.md)
-
-<img src="../assets/dividir.png" style="width: 300px; height: 170px;"/>
 
 ---
