@@ -1,36 +1,53 @@
 <div align="center">
   <h1>QUESTÃO 02</h1>
-    <img src="../../assets/neymar.jpg" align="center" style="width: 600px; height: 340px;" />
+    <img src="../../assets/pai-mei.gif" align="center" style="width: 600px; height: 340px;" />
   </p>
 </div>
 
-## 📝 Onde não há normas, a ordem se perde.
+## 📝 Eu te ensinei tudo o que você sabe, mas não tudo o que eu sei.
 
-Agora que já consegue extrair as informações importantes do texto, Jaime está pronto para montar o seu resumo.  
-Contudo, ele sabe que para um resumo ser bom é preciso que esteja organizado.  
-Para isso, ele definiu algumas normas que seu resumo deve seguir.
+Apesar de toda a esperteza de Jaime, ele não previu que o professor de história também era fã de 007 e rapidamente entendeu do que aquelas mensagens cifradas se tratavam.
 
-**Template:**
+Contudo, Jaime não se deu por vencido. Ele estava determinado em estabelecer uma rede secreta de comunicação entre seus amigos durante as aulas.
 
-    >>>>>
-    TOPICO
-    Categoria
-    [Pessoa]
+Para isso ele decidiu implementar uma segunda camada de cifra em suas mensagens - agora usando também a cifra de substituição.
 
-    => X avancos importantes:
-    --> avanço 1, avanço 2, ..., avanço x.
+**Funcionamento da cifra de substituição:**
 
-    "Local - Ano"
-    <<<<<
+>Técnica criptográfica onde cada caractere de um texto original é substituído por outro caractere, de acordo com uma regra pré-definida. 
+
+>- **Regra usada nesse exemplo:**
+>- Os caracteres abaixo na mesma posição são os que estão relacionados na regra de substituição
+>   - abcdefghijklmnopqrstuvwxyz0123456789
+>   - zyxwvutsrqponmlkjihgfedcba9876543210
+- A ↔ Z
+- i ↔ r
+- Z ↔ A
+- 0 ↔ 9
+- 4 ↔ 5
+- 9 ↔ 0
+
+**Exemplos:**
+
+>- **Cifrando:**
+>   - ORIGINAL: ABc 08
+>   - CIFRADO: ZYx 91
+>- **Decifrando:**
+>   - ORIGINAL: ZYx 91
+>   - CIFRADO: ABc 08
 
 ## 🛠️ SUA TAREFA
 
-Você receberá 2 strings, uma contendo as informações gerais sobre o tópico em questão e outra com os avanços provenientes desse tópico.  
-É seu trabalho extrair as informações necessárias dessas strings e montar o resumo nos moldes definidos por Jaime.
+Assim como no exercício anterior, você receberá um primeiro input representado o número `n` de testes que serão executados. Contudo, agora cada teste tem 4 inputs posteriores - repetidos `n` vezes - representando `frase`, `rotacao`, `operacao` e `materia`.
 
->**DICA:** Altere as funções construídas anteriormente para retornar o valor extraído, ao invés de imprimi-los, e use o valor de retorno para chegar o template.
+O programa deve ter basicamente a mesma funcionalida do exercício anterior. A diferença é que agora, quando as mensagens forem na aula de `historia`, deve haver a camada extra de criptografia.
 
->**OBS:** Não é necessário formatar os avancos importantes, é suficiente extrair o trecho em que eles são citados e replicar no template.
+Assim para criptografar mensagens da aula de história, deve-se primeiro aplicar a cifra de césar e depois a cifra de substituição. Para decifrar essas mensagens, faz-se o caminho oposto.
+
+>**Dica: Implemente uma função nos moldes abaixo**
+>- cifra_de_substituicao(frase)
+>  - **frase**: texto a ser convertido;
+
 ---
 
 ## 👀 DEMONSTRAÇÃO
@@ -48,22 +65,25 @@ Você receberá 2 strings, uma contendo as informações gerais sobre o tópico 
     <!-- Primeiro Teste -->
     <tr>
         <!-- Inputs -->
-        <td><pre>
-A imprensa, criada por Johannes Gutenberg, trouxe inúmeras mudanças para nossa sociedade. Ele inventou esse instrumento em 1440 na "RFA" - Republica Federal da Alemanha.
-Alguns avanços são, disseminação do conhecimento,  alfabetização em massa, revolução científica, surgimento dos jornais.
+        <td><pre>3
+Julio Cesar nasceu em 100 a.C.
+3
+cifrar
+matematica
+Julio Cesar nasceu em 100 a.C.
+3
+cifrar
+historia
+Ncloi Usewf jweusc sk 566 w.U.
+3
+decifrar
+historia
+cifrar
         </pre></td>
         <!-- Outputs -->
-        <td><pre>>>>>>
-IMPRENSA
-Invencao
-
-[Johannes Gutenberg]
-
-=> 4 avancos importantes:
---> disseminação do conhecimento,  alfabetização em massa, revolução científica, surgimento dos jornais.
-
-#Republica Federal da Alemanha - 1440
-<<<<<
+        <td><pre>Mxolr Fhvdu qdvfhx hp 433 d.F.
+Ncloi Usewf jweusc sk 566 w.U.
+Julio Cesar nasceu em 100 a.C.
         </pre></td>
     </tr>
 </tbody>

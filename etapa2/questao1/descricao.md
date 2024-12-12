@@ -6,7 +6,9 @@
 
 ## 📝 Até tu, Bruto?
 
-Jaime decidiu implementar um programa que cifra e decifra mensagens - com o padrão da cifra de Cesár. Seu objetivo é trocar mensagens confidenciais em sala com seus amigos sem que o professor saiba o conteúdo das mensagens mesmo flagrando a troca.
+Jaime, inspirado nos seus filmes favoritos do 007, decidiu implementar um programa que cifra e decifra mensagens - com o padrão da cifra de Cesár. 
+
+Seu objetivo é trocar mensagens confidenciais em sala com seus amigos sem que o professor saiba o conteúdo das mensagens mesmo flagrando a troca.
 
 **Funcionamento da cifra de César:**
 
@@ -49,7 +51,6 @@ Para cada teste execute a operação pedida sobre a frase, levando em conta o n�
 
 ## 👀 DEMONSTRAÇÃO
 
-**Considerando os exemplos de primeiro parágrafo acima, assuma - para os testes abaixo - que conteúdo da variável `texto` corresponde ao primeiro e segundo exemplo, respectivamente.**
 <table>
 
 <thead>
