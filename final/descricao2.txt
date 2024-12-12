@@ -22,7 +22,6 @@ ACOES
 #11 - al21010135,Harry Potter matricula em "Feiticos"
 #12 - al21010135,Harry Potter matricula em "Defesa Contra as Artes das Trevas" **Erro de falta de professor
 #13 - al20002384,Draco Malfoy matricula em "Pocoes"
-#14 - Imprimir aluno inexistente (aaaaaaaaaa) ** Erro de matrícula inválida
 #15 - IMPRIMIR co10001234,Godric Gryffindor
 #16 - al20002384,Draco Malfoy matricula em "Estudo dos Trouxas" ** Erro de turma inexistente
 #17 - IMPRIMIR al20002384,Draco Malfoy
