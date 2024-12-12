@@ -1,57 +1,49 @@
 <div align="center">
   <h1>QUESTÃO 03</h1>
-    <img src="../../assets/dividir.png" align="center" style="width: 600px; height: 340px;" />
+    <img src="../../assets/batman.jpg" align="center" style="width: 600px; height: 340px;" />
   </p>
 </div>
 
-## 📝 Dividir para conquistar.
+## 📝 Se não pode vencê-los, junte-se a eles.
 
-Após outra análise do seu programa de resumos, Jaime observou que, já que todos os resumos seguem esse template, é possível dividir o trabalho entre funções diferentes. Para isso, ele criou 3 funções bases - `imprimir_cabecalho()`, `imprimir_info()`, `imprimir_rodape()`.  
-Cada função é responsável pela impressão dos respectivos trechos do template.  
-Além disso, ele criou a função `imprimir_resumo()` que chama as demais funções e imprime o resumo inteiro.  
+Vendo que não podia conter Jaime, os professores se uniram para criar um desafio para entrenter o agente secreto que existia no aluno.
 
-**Template:**
+O desafio consiste em receber uma sequência de códigos criptografados e decifrá-los. Esses códigos possuem o prefixo `se` (secreto) ou `us` (ultrassecreto) e um dígito de `[0 - 9]` como sufixo.
 
-    >>>>>
-    TOPICO
-    Categoria
-    [Pessoa]
+A dificuldade do problema proposto é que agora é o nosso espião Jaime que está no escuro quanto as informações necessárias para descobrir o conteúdo dos códigos secretos / ultrassecretos.
 
-    => X avancos importantes:
-    --> avanço 1, avanço 2, ..., avanço x.
+**Entendendo o processo de cifrar:**
 
-    "Local - Ano"
-    <<<<<
+- Agora são os prefixos dos códigos que indicam o nível de criptografia que deve ser realizada:
+  - `se`: somente cifra de César;
+  - `us`: cifra de César + cifra de substituição.
+- Quanto a rotação, agora é o valor do `dígito do sufixo` que representa o quanto a cifra de César dever percorrer para cada troca de caractere.
+
+>**IMPORTANTE:** Nesse desafio, a etapa da cifra de César não pode alterar o `digito do sufixo` do código. Contudo, caso seja um código ultrassecreto, a segunda etapa de cifra - substituição - irá criptografar todos os digitos - inclusive o `dígito do sufixo`.
+
+**Exemplificando a criptografia:**
+
+>- **Código `seabcd3`**
+>   - Após cifra de César: vhdefg3
+>- **Código `usabcd3`**
+>   - Após cifra de César: xvdefg3
+>   - Após a cifra de substituição: cewvut6
 
 ## 🛠️ SUA TAREFA
 
-Implemente as 4 funções do trabalho de Jaime, levando em consideração quantos argumentos elas recebem, seus tipos e sua ordem - todos descritos abaixo:
+Você receberá uma quantidade, não definida previamente, de códigos para decifrar. Contudo é garantido que o input inicial, anterior ao primeiro código, é `comeco` e o input final, posterior ao último código, é `fim`.
 
->**imprimir_cabecalho**(topico, categoria, pessoa)
+Após o input inicial e antes do input final, serão fornecidos vários inputs de códigos no formato `PPxxxxD`, no qual:
+- `PP`: prefixo que pode ser `se` ou `us`;
+- `x`: caractere alfanumérico que compõe o código;
+- `S`: sufixo que pode ser um dígito de `[0 - 9]`;
 
->**imprimir_info**(frase)
 
->**imprimir_rodape**(local, ano)
-
->**imprimir_resumo**(topico, categoria, pessoa, local, ano, frase)
-
->**OBS:** O argumento `frase` é uma string no padrão do segundo parágrafo definido nos exemplos anteriores.
-
->**OBS:** Os espaços que separam os trechos do resumo devem fazer parte da função `imprimir_info()`.
+>**Dica:** Confira primeiramente se o código é ultrassecreto.
 
 ---
 
 ## 👀 DEMONSTRAÇÃO
-
-**Para os testes abaixo, vamos considerar as variáveis abaixo e seus respectivos valores:**
-
-- **topico**: imprensa
-- **categoria**: invencao
-- **pessoa**: johannes gutenberg
-- **local**: Republica Federal da Alemanha
-- **ano**: 1440
-- **frase**: Alguns avanços são, disseminação do conhecimento,  alfabetização em massa, revolução científica, surgimento dos jornais.
-
 
 <table>
 
@@ -66,54 +58,18 @@ Implemente as 4 funções do trabalho de Jaime, levando em consideração quanto
     <!-- Primeiro Teste -->
     <tr>
         <!-- Inputs -->
-        <td><pre>imprimir_resumo(topico, categoria, pessoa, local, ano, frase)
+        <td><pre>comeco
+vhdefg3
+cewvut6
+seapc10
+cecjv68
+fim
         </pre></td>
         <!-- Outputs -->
-        <td><pre>>>>>>
-IMPRENSA
-Invencao
-
-[Johannes Gutenberg]
-
-=> 4 avancos importantes:
---> disseminação do conhecimento,  alfabetização em massa, revolução científica, surgimento dos jornais.
-
-#Republica Federal da Alemanha - 1440
-<<<<<
-        </pre></td>
-    </tr>
-    <!-- Segundo Teste -->
-    <tr>
-        <!-- Inputs -->
-        <td><pre>imprimir_cabecalho(topico, categoria, pessoa)
-        </pre></td>
-        <!-- Outputs -->
-        <td><pre>>>>>>
-IMPRENSA
-Invencao
-[Johannes Gutenberg]
-        </pre></td>
-    </tr>
-    <!-- Terceiro Teste -->
-    <tr>
-        <!-- Inputs -->
-        <td><pre>imprimir_info(info)
-        </pre></td>
-        <!-- Outputs -->
-        <td><pre>
-
-=> 4 avancos importantes:
---> disseminação do conhecimento,  alfabetização em massa, revolução científica, surgimento dos jornais.
-        </pre></td>
-    </tr>
-    <!-- Quarto Teste -->
-    <tr>
-        <!-- Inputs -->
-        <td><pre>imprimir_rodape(local, ano)
-        </pre></td>
-        <!-- Outputs -->
-        <td><pre>#Republica Federal da Alemanha - 1440
-<<<<<
+        <td><pre>seabcd3
+usabcd3
+seapc10
+usunb21
         </pre></td>
     </tr>
 </tbody>
