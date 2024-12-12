@@ -1,6 +1,5 @@
 Turma de departamento diferente.
 Turma não possui professor.
-Matricula 'aaaaaaaaaa' invalido(a).
 >>>>>
 ESCOLA DE MAGIA E BRUXARIA DE HOGWARTS
 Departamento Grifinoria
