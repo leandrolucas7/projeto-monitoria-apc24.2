@@ -91,17 +91,126 @@ Entre os tipos de input estão: `informacoes gerais`, `tipo`, `encerramento`, `d
 ---
 
 
-## 🚨 POSSÍVEIS EXCEÇÕES PARA LIDAR
+## 📐 ESPECIFICAÇÕES RESUMIDAS
 
-Casos particulares
+- `Coordenador`:
+  - Cria as turmas e associa-as ao seu departamento.
+- `Professor`:
+  - Ministra turmas existentes em seu departamento mas que ainda não possuem professor. Também não pode haver conflito de horários.
+- `Aluno`:
+  - Matricula-se em turmas existentes em seu departamento que possuem professor. Também não pode haver conflito de horários.
+- Ação de impressão `i`:
+  - Imprime apenas as turmas válidas.
+    - Possuem **professor** e, ao menos um, **aluno**;
+    - Apresenta o total se turmas válidas.
+  - Imprime as turmas em ordem alfabética.
 
 ---
 
+## 🚨 POSSÍVEIS EXCEÇÕES PARA LIDAR
+
+- **Turma inexistente**
+  - Quando algum professor ou aluno tenta se associar a alguma turma que não existe;
+  - `mensagem de erro`: Turma inexistente.
+- **Turma de departamento diferente**
+  - Quando algum professor ou aluno tenta se associar a alguma turma de outro departamento;
+  - `mensagem de erro`: Turma de departamento diferente.
+- **Turma ja possui professor**
+  - Quando algum professor tenta se associar a alguma turma que já possui professor associado;
+  - `mensagem de erro`: Turma ja possui professor.
+- **Turma nao possui professor**
+  - Quando algum aluno tenta se associar a alguma turma que não possui professor;
+  - `mensagem de erro`: Turma nao possui professor.
+- **Conflito de dias**
+  - Quando algum professor ou aluno tentar se associar a alguma turma cujo horario é conflitante com outra que ele já faz parte;
+  - `mensagem de erro`: Conflito de dias.
+
+---
+
+## 🖨 FORMATO DE IMPRESSÃO ️
+
+    >>>>>
+    NOME DO LOCAL MAIUSCULO
+    Departamento Nome
+    [Posicao(a): Nome Pessoa]
+
+    #01: TURMA B
+    ---> Professor(a): Nome Professor
+    ---> Horario: xxx/xxx
+    ---> Matriculados: X aluno(s)
+
+    #02: TURMA Z
+    ---> Professor(a): Nome Professor
+    ---> Horario: xxx
+    ---> Matriculados: X aluno(s)
+
+    ==> Y turmas ativa(s).
+
+    "Nome Responsavel - Cargo (ano.semestre)"
+    <<<<<
+
+**Exemplo  prático de um coordenador:**
+- **Cargo:** Reitoria;
+- **Nome do responsável:** Albus Dumbledore;
+- **Semestre:** Primeiro;
+- **Ano:** 2025;
+- **Local:** Escola de Magia e Bruxaria de Hogwarts;
+- **Nome do coordenador:** Godric Gryffindor;
+- **Departamento:** Grifinoria;
+- **Posição:** Coordenador;
+- **Turmas:**
+  - Defesa Contra as Artes das Trevas:
+    - Professor(a): 
+    - Horario: seg/qua/sex
+    - Alunos: __________
+  - Transfiguracao:
+    - Professor(a): Minerva McGonagall
+    - Horario: seg/qua
+    - Alunos: Harry Potter, Hermione Granger, Ron Weasley
+  - Trato das Criaturas Magicas:
+    - Professor(a): Rubeus Hagrid
+    - Horario: qua
+    - Alunos: __________
+  - Detenção - Floresta Proibida:
+    - Professor(a): Rubeus Hagrid
+    - Horario: qua
+    - Alunos: Harry Potter
+
+**Resultado:**
+
+    >>>>>
+    ESCOLA DE MAGIA E BRUXARIA DE HOGWARTS
+    Departamento Grifinoria
+    [Coordenador(a): Godric Gryffindor]
+
+    #01: DETENCAO - FLORESTA PROIBIDA
+    ---> Professor(a): Rubeus Hagrid
+    ---> Horario: sex/sab
+    ---> Matriculados: 1 aluno(s)
+
+    #02: TRANSFIGURACAO
+    ---> Professor(a): Minerva McGonagall
+    ---> Horario: seg/qua
+    ---> Matriculados: 3 aluno(s)
+
+    ==> 2 turmas ativa(s).
+
+    "Alvo Dumbledore - Reitoria (2025.1)"
+    <<<<<
+
+
 ## 🛠️ SUA TAREFA
 
-tarefa...
+Você receberá os inputs na ordem que foi especificada acima. Cabe a você identificar os pontos de início e fim dos inputs, bem como o tipo dos inputs - todos seguem as especificações descritas acima.
 
->**Dica:** Adicionar dicas.
+Você é livre para escolher como associar, armazenar e manipular os dados dos inputs, desde que as ações que usam esses dados gerem o resultado esperado.
+
+> **DICA:** Grande parte nas funcionalidades que você implementou em exercícios anteriores podem ser usadas diretamente ou indiretamente nesse projeto.
+
+<details>
+<summary><b>Ver flowchart do programa:</b></summary>
+adicionar flowchart
+</details>
 
 ---
 
@@ -139,3 +248,4 @@ usunb21
 </table>
 
 ---
+
