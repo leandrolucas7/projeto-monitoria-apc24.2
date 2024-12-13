@@ -23,6 +23,6 @@ Agora cabe a nós ajudarmos Jaime a se organizar antes que seja tarde demais.
 
 ---
 
-### 3️⃣ [Quem busca, encontra](questao3/descricao.md)
+### 3️⃣ [Pontualidade britânica.](questao3/descricao.md)
 
 ---
