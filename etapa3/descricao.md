@@ -7,7 +7,7 @@
 
 ## 📝 Quem arruma antes não perde tempo depois.
 
-O conto que será relatado nas questões a seguir retrata um erro que todo estudante universitário já cometeu ou irá cometar.
+O conto que será relatado nas questões a seguir retrata um erro que todo estudante universitário já cometeu ou irá cometer.
 
 Essa é a história de como Jaime, nosso universitário favorito, matriculou-se em mais matérias do que até mesmo a Hermione Granger podia suportar - e ela chegou a voltar no tempo para dar conta das aulas.
 
