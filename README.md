@@ -95,7 +95,7 @@ Vale ressaltar que, apesar de o projeto final poder ser construído apenas com e
 
 ---
 
-### 4️⃣ [Se está empilhado, está organizado.](etapa4/descricao.md)
+### 4️⃣ [A confusão precede a clareza.](etapa4/descricao.md)
 
 <details>
 <summary><b>Ver detalhes</b></summary>  

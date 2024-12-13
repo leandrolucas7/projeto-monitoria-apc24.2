@@ -5,7 +5,7 @@
   </p>
 </div>
 
-## 📝 A confusão precede a clareza..
+## 📝 A confusão precede a clareza.
 
 Descrição
 
