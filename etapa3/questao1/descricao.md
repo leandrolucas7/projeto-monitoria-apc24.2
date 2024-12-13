@@ -88,7 +88,7 @@ fim
         </pre></td>
         <!-- Outputs -->
         <td><pre>
-['Atividade de Matrizes', 'Competicao de Programacao', 'Experimento de Aceleracao', 'Experimento de Velocidade', 'Lista de Equacoes Diferenciais', 'Pratica de Listas', 'Prova Final', 'Trabalho Extra']
+['Atividade de Matrizes', 'Competicao de Programacao', 'Experimento de Aceleracao', 'Experimento de Velocidade', 'Lista de Equacoes Diferenciais', 'Pratica de Listas', 'Prova Final', 'Trabalho de EDOs']
         </pre></td>
     </tr>
     <!-- Terceiro Teste -->
