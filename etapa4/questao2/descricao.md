@@ -6,11 +6,11 @@
 
 ## 📝 Compreendeu o ponto?
 
-Descrição
+Exercicio com foco em list comprehension para montar listas unidimensionais com dados de listas multidimensionais
 
 ## 🛠️ SUA TAREFA
 
-Tareda
+Tarefa
 
 ---
 
@@ -29,21 +29,12 @@ Tareda
     <!-- Primeiro Teste -->
     <tr>
         <!-- Inputs -->
-        <td><pre>3
-Julio Cesar nasceu em 100 a.C.
-3
-cifrar
-Hjxfw rtwwjz htr 00 fstx!
-5
-decifrar
-Julio Cesar nunca foi imperador.
-0
-cifrar
+        <td><pre>
+valor do input
         </pre></td>
         <!-- Outputs -->
-        <td><pre>Mxolr Fhvdu qdvfhx hp 433 d.F.
-Cesar morreu com 55 anos!
-Julio Cesar nunca foi imperador.
+        <td><pre>
+valor do output
         </pre></td>
     </tr>
 </tbody>

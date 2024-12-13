@@ -1,11 +1,11 @@
 
 <div align="center">
   <h1>ETAPA 04</h1>
-    <img src="../assets/acumulado.webp" align="center" style="width: 600px; height: 340px;" />
+    <img src="../assets/simplificando.png" align="center" style="width: 600px; height: 340px;" />
   </p>
 </div>
 
-## 📝 Se está empilhado está organizado.
+## 📝 A confusão precede a clareza..
 
 Descrição
 
