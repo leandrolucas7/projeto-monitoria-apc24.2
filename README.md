@@ -77,7 +77,7 @@ Vale ressaltar que, apesar de o projeto final poder ser construído apenas com e
 
 ---
 
-### 3️⃣ [Quem arruma antes não perde tempo depois.](final/descricao.md)
+### 3️⃣ [Quem arruma antes não perde tempo depois.](etapa3/descricao.md)
 
 <details>
 <summary><b>Ver detalhes</b></summary>  

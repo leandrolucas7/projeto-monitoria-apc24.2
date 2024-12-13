@@ -1,13 +1,17 @@
 
 <div align="center">
   <h1>ETAPA 03</h1>
-    <img src="" align="center" style="width: 600px; height: 340px;" />
+    <img src="../assets/ponte.jpg" align="center" style="width: 600px; height: 340px;" />
   </p>
 </div>
 
 ## 📝 Quem arruma antes não perde tempo depois.
 
-Descrição
+O conto que será relatado nas questões a seguir retrata um erro que todo estudante universitário já cometeu ou irá cometar.
+
+Essa é a história de como Jaime, nosso universitário favorito, matriculou-se em mais matérias do que até mesmo a Hermione Granger podia suportar - e ela chegou a voltar no tempo para dar conta das aulas.
+
+Agora cabe a nós ajudarmos Jaime a se organizar antes que seja tarde demais.
 
 ## ❔ QUESTÕES
 
@@ -19,6 +23,6 @@ Descrição
 
 ---
 
-### 3️⃣ [Quem busca, encontra](questao3/descricao.md)
+### 3️⃣ [Pontualidade britânica.](questao3/descricao.md)
 
 ---
